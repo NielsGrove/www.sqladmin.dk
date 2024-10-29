@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/SQLAdmin.master.cs" Inherits="MasterPage" %><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Window-target" content="_top" />
+	<meta http-equiv="Cache-Control" content="max-age=432000" />
+	<meta name="linkage" content="http://www.SQLAdmin.dk" />
+	<meta name="classification" content="Internet" />
+	<meta name="distribution" content="Global" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="42 days" />
+	<meta name="subject" content="Microsoft SQL Server administration" />
+	<meta name="keywords" content="SQL, DBA, SQL Server, Microsoft, MS, database, RDBMS, SQLAdmin" />
+	<meta name="description" content=<% Response.Write('"' + SiteMap.CurrentNode.Description + '"'); %> />
+	<meta name="generator" content="Microsoft Visual Studio" />
+	<meta name="author" content="Niels Grove-Rasmussen" />
+	<meta name="contactName" content="Niels Grove-Rasmussen" />
+	<meta name="contactCountry" content="Denmark" />
+	<meta name="verify-v1" content="wCubgnXSI9hIut7wNEhOrzwVm++zkQ7pVb8eZIsj5+s=" />
+	<title>SQLAdmin &ndash; <% Response.Write(SiteMap.CurrentNode.Title); %></title>
+	<%--link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" runat="server" /--%>
+	<link rel="stylesheet" type="text/css" href="~/App_Themes/SQLAdmin.css" runat="server" />
+</head>
+
+<body>
+	<form id="MasterForm" method="post" runat="server">
+	<p class="navbar">
+		<span id="About" style="float: right">
+		<a href="~/About.aspx" title="About SQLAdmin site" runat="server">About</a>
+		
+		</span>
+		<asp:SiteMapPath ID="SiteMapPath" runat="server" />
+	</p>
+	
+	<h1 class="header"><asp:ContentPlaceHolder ID="PageTitle" runat="server" /></h1>
+
+	<div id="wrapper">
+		<div id="synopsis"><asp:ContentPlaceHolder ID="PageSynopsis" runat="server" /></div>
+	        
+		<div id="main"><asp:ContentPlaceHolder ID="PageContent" runat="server" /></div>
+		
+		<div id="navcol"><asp:ContentPlaceHolder ID="PageNavigation" runat="server" /></div>
+
+		<p class="foot">
+			<span style="float: right"><a href="http://www.niels.grove-rasmussen.org/" title="Niels Grove-Rasmussen hjemmeside">Niels Grove-Rasmussen</a></span>
+			Updated <asp:Label ID="pageTime" runat="server" />.
+			<br />
+			<span style="float: right">Ting Ta'r Tid!</span>
+			Loaded <asp:Label ID="requestTime" runat="server" />.
+		</p>
+	</div>
+	</form>
+</body>
+
+</html>

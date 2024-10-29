@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Default.aspx" title="SQLAdmin"  description="SQLAdmin.dk">
+		<siteMapNode url="~/About.aspx" title="Om"  description="Om SQLAdmin.dk" />
+
+		<siteMapNode url="~/Tools/Default.aspx" title="Værktøj" description="SQL Server DBA værktøjer">
+			<siteMapNode url="~/Tools/MngtStud.aspx" title="Management Studio" description="SQL Server Management Studio" />
+			<siteMapNode url="~/Tools/SQLCMD.aspx" title="SQLCMD" description="SQL Server SQLCMD" />
+      <siteMapNode url="~/SQLAdmin/Default.aspx" title="SQLAdmin" description="SQLAdmin værktøjet">
+			<siteMapNode url="~/SQLAdmin/Design.aspx" title="Design" description="SQLAdmin design"/>
+			<siteMapNode url="~/SQLAdmin/DataModel.aspx" title="Data model" description="SQLAdmin data model"/>
+			<siteMapNode url="~/SQLAdmin/DataSource.aspx" title="Datakilder" description="SQLAdmin datakilder"/>
+			<siteMapNode url="~/SQLAdmin/SQLAnchor.aspx" title="SQLAnchor" description="SQLAdmin brugergrænseflade"/>
+			<siteMapNode url="~/SQLAdmin/BackLog.aspx" title="Backlog" description="SQLAdmin Backlog"/>
+		</siteMapNode>
+			<siteMapNode url="~/Tools/MSOffice.aspx" title="Office" description="Microsoft Office" />
+			<siteMapNode url="~/MSSystemCenter/Default.aspx" title="System Center" description="Microsoft System Center">
+				<siteMapNode url="~/MSSystemCenter/SCOM.aspx" title="SCOM" description="System Center Operations Manager">
+					<siteMapNode url="~/MSSystemCenter/ScomCommands.aspx" title="Kommandoer" description="System Center Operations Manager kommandoer" />
+				</siteMapNode>
+			</siteMapNode>
+			<siteMapNode url="~/Tools/MSWindows.aspx" title="Windows" description="Microsoft Windows værktøjer" />
+		</siteMapNode>
+		
+		<siteMapNode url="~/Programming/Default.aspx" title="Programmering" description="Programmering til SQL Server">
+			<siteMapNode url="~/Programming/TSQL.aspx" title="T-SQL" description="Transact-SQL">
+				<siteMapNode url="~/Programming/DDL.aspx" title="DDL" description="Data Definition Language" />
+				<siteMapNode url="~/Programming/DCL.aspx" title="DCL" description="Data Control Language" />
+				<siteMapNode url="~/Programming/DML.aspx" title="DML" description="Data Manipulation Language" />
+			</siteMapNode>
+			<siteMapNode url="~/Programming/Connectivity.aspx" title="Connectivity"  description="SQL Server connectivity">
+				<siteMapNode url="~/ADO/Default.aspx" title="ADO" description="ADO og SQL Server">
+					<siteMapNode url="~/ADO/Connection.aspx" title="Connection" description="ADO Connection klasse" />
+					<siteMapNode url="~/ADO/Recordset.aspx" title="Recordset" description="ADO Recordset klasse" />
+				</siteMapNode>
+				<siteMapNode url="~/ADONET/Default.aspx" title="ADO.NET" description="SQL Server og ADO.NET">
+					<siteMapNode url="~/ADONET/System.Data.SqlClient.aspx" title="System.Data.SqlClient" description=".NET namespace System.Data.SqlClient">
+						<siteMapNode url="~/ADONET/SqlBulkCopy.aspx" title="SqlBulkCopy" description="System.Data.SqlClient SqlBulkCopy" />
+					</siteMapNode>
+				</siteMapNode>
+				<siteMapNode url="~/Programming/OLEDB.aspx" title="OLE DB" description="SQL Server og OLE DB" />
+				<siteMapNode url="~/SMO/Default.aspx" title="SMO" description="SQL Server Management Objects">
+					<siteMapNode url="~/SMO/nsSmo.aspx" title="Smo" description="Microsoft.SqlServer.Management.Smo">
+						<siteMapNode url="~/SMO/Database.aspx" title="Database" description="SMO klassen Database" />
+						<siteMapNode url="~/SMO/Databases.aspx" title="Databases" description="SMO samlingen Databases" />
+					</siteMapNode>
+					<siteMapNode url="~/SMO/nsCommon.aspx" title="Common namespace" description="Microsoft.SqlServer.Management.Common" />
+					<siteMapNode url="~/SMO/nsAgent.aspx" title="Agent namespace" description="Microsoft.SqlServer.Management.Agent" />
+					<siteMapNode url="~/SMO/nsWmi.aspx" title="Wmi namespace" description="Microsoft.SqlServer.Management.Wmi" />
+					<siteMapNode url="~/SMO/nsRegisteretServers.aspx" title="RegisteretServers namespace" description="Microsoft.SqlServer.Management.RegisteretServers" />
+					<siteMapNode url="~/SMO/nsMail.aspx" title="Mail namespace" description="Microsoft.SqlServer.Management.Mail" />
+					<siteMapNode url="~/SMO/nsBroker.aspx" title="Broker namespace" description="Microsoft.SqlServer.Management.Broker" />
+					<siteMapNode url="~/SMO/nsNmo.aspx" title="Nmo namespace" description="Microsoft.SqlServer.Management.Nmo" />
+				</siteMapNode>
+				<siteMapNode url="~/Programming/WMI.aspx" title="WMI" description="SQL Server og WMI" />
+				<siteMapNode url="~/DMO/Default.aspx" title="SQL-DMO" description="SQL Distributed Management Objects">
+					<siteMapNode url="~/DMO/Backup.aspx" title="SQLDMO.Backup" description="SQL-DMO Backup klasse" />
+					<siteMapNode url="~/DMO/Backup2.aspx" title="SQLDMO.Backup2" description="SQL-DMO Backup2 klasse" />
+					<siteMapNode url="~/DMO/Database.aspx" title="SQLDMO.Database" description="SQL-DMO Database klasse" />
+					<siteMapNode url="~/DMO/Database2.aspx" title="SQLDMO.Database2" description="SQL-DMO Database2 klasse" />
+					<siteMapNode url="~/DMO/DatabaseRole.aspx" title="SQLDMO.DatabaseRole" description="SQL-DMO DatabaseRole klasse" />
+					<siteMapNode url="~/DMO/DatabaseRole2.aspx" title="SQLDMO.DatabaseRole2" description="SQL-DMO DatabaseRole2 klasse" />
+					<siteMapNode url="~/DMO/DatabaseRoles.aspx" title="SQLDMO.DatabaseRoles" description="SQL-DMO DatabaseRole samling" />
+					<siteMapNode url="~/DMO/Permission.aspx" title="SQLDMO.Permission" description="SQL-DMO Permission klasse" />
+					<siteMapNode url="~/DMO/Permission2.aspx" title="SQLDMO.Permission2" description="SQL-DMO Permission2 klasse" />
+					<siteMapNode url="~/DMO/Registry.aspx" title="SQLDMO.Registry" description="SQL-DMO Registry klasse" />
+					<siteMapNode url="~/DMO/Registry2.aspx" title="SQLDMO.Registry2" description="SQL-DMO Registry2 klasse" />
+					<siteMapNode url="~/DMO/SQLServer.aspx" title="SQLDMO.SQLServer" description="SQL-DMO SQLServer klasse" />
+					<siteMapNode url="~/DMO/SQLServer2.aspx" title="SQLDMO.SQLServer2" description="SQL-DMO SQLServer2 klasse" />
+					<siteMapNode url="~/DMO/Table.aspx" title="SQLDMO.Table" description="SQL-DMO Table klasse">
+						<siteMapNode url="~/DMO/Table.UpdateStatisticsWith.aspx" title="SQLDMO.Table.UpdateStatisticsWith()" description="SQL-DMO Table.UpdateStatisticsWith() metode" />
+					</siteMapNode>
+					<siteMapNode url="~/DMO/Table2.aspx" title="SQLDMO.Table2" description="SQL-DMO Table2 klasse" />
+					<siteMapNode url="~/DMO/Transfer.aspx" title="SQLDMO.Transfer" description="SQL-DMO Transfer klasse" />
+					<siteMapNode url="~/DMO/Transfer2.aspx" title="SQLDMO.Transfer2" description="SQL-DMO Transfer2 klasse" />
+				</siteMapNode>
+				<siteMapNode url="~/ADSI/Default.aspx" title="ADSI" description="Active Directory Service Interfaces">
+					<siteMapNode url="~/ADSI/WinNT.aspx" title="WinNT" description="WinNT provider" />
+				</siteMapNode>
+				<siteMapNode url="~/Programming/HTTP.aspx" title="HTTP" description="Hypertext Transfer Protocol" />
+				<siteMapNode url="~/Programming/CDO.aspx" title="CDO" description="CDO for en SQL Server DBA" />
+				<siteMapNode url="~/Programming/ODBC.aspx" title="ODBC" description="SQL Server og ODBC" />
+			</siteMapNode>
+			<siteMapNode url="~/Programming/Default.aspx#Frameworks" title="Rammeværk" description="Rammeværk">
+				<siteMapNode url="~/dotNET/Default.aspx" title=".NET" description="Microsoft .NET">
+					<siteMapNode url="~/dotNET/SystemDiagnostics.aspx" title="System.Diagnostics" description="System.Diagnostics namespace" />
+				</siteMapNode>
+			</siteMapNode>
+			<siteMapNode url="~/Programming/RegExp.aspx" title="Regulære udtryk" description="Regulære udtryk" />
+			<siteMapNode url="~/Programming/Script.aspx" title="Script" description="SQL Server DBA scripting">
+				<siteMapNode url="~/JScript/Default.aspx" title ="JScript" description="Microsoft JScript">
+				</siteMapNode>
+				<siteMapNode url="~/WSH/VBScript.aspx" title ="VBScript" description="Microsoft Visual Basic Scripting Edition" />
+				<siteMapNode url="~/WSH/Default.aspx" title="WSH" description="SQL Server og Windows Scripting Host">
+					<siteMapNode url="~/WSH/TextStream.aspx" title ="TextStream" description="WSH klassen TextStream" />
+					<siteMapNode url="~/WSH/WScript.aspx" title ="WScript" description="WSH klassen WScript">
+						<siteMapNode url="~/WSH/WScript.Application.aspx" title ="WScript.Application" description="WSH attributten WScript.Application" />
+						<siteMapNode url="~/WSH/WScript.CreateObject.aspx" title ="WScript.CreateObject()" description="WSH metoden WScript.CreateObject()" />
+						<siteMapNode url="~/WSH/WScript.Echo.aspx" title ="WScript.Echo()" description="WSH metoden WScript.Echo()" />
+						<siteMapNode url="~/WSH/WScript.Quit.aspx" title ="WScript.Quit()" description="WSH metoden WScript.Quit()" />
+						<siteMapNode url="~/WSH/WScript.StdIn.aspx" title ="WScript.StdIn" description="WSH attributten WScript.StdIn" />
+						<siteMapNode url="~/WSH/WScript.StdOut.aspx" title ="WScript.StdOut" description="WSH attributten WScript.StdOut" />
+					</siteMapNode>
+					<siteMapNode url="~/WSH/WshArguments.aspx" title="WshArguments" description="WSH klassen WshArguments" />
+					<siteMapNode url="~/WSH/WshNamed.aspx" title="WshNamed" description="WSH klassen WshNamed" />
+					<siteMapNode url="~/WSH/WshUnnamed.aspx" title="WshUnnamed" description="WSH klassen WshUnnamed" />
+					<siteMapNode url="~/WSH/WshController.aspx" title="WshController" description="WSH klassen WshController" />
+					<siteMapNode url="~/WSH/WshNetwork.aspx" title="WshNetwork" description="WSH klassen WshNetwork" />
+					<siteMapNode url="~/WSH/WshShell.aspx" title="WshShell" description="WSH klassen WshShell">
+						<siteMapNode url="~/WSH/WshShell.Exec.aspx" title="WshShell.Exec()" description="WSH metoden WshShell.Exec()" />
+					</siteMapNode>
+					<siteMapNode url="~/WSH/Filetypes.aspx" title="Filtyper" description="WSH filtyper">
+						<siteMapNode url="~/WSH/Filetypes-WSF.aspx" title="WSF" description="Windows Script File" />
+					</siteMapNode>
+				</siteMapNode>
+				<siteMapNode url="~/Programming/HTA.aspx" title="HTA" description="HTML Applikation" />
+				<siteMapNode url="~/Programming/WindowsShell.aspx" title="Windows Shell" description="Microsoft Windows NT Shell" />
+				<siteMapNode url="~/PowerShell/Default.aspx" title="PowerShell" description="SQL Server og Windows PowerShell">
+					<siteMapNode url="~/PowerShell/Operators.aspx" title="Operatorer" description="Windows PowerShell operatorer" />
+				</siteMapNode>
+				<siteMapNode url="~/Perl/Default.aspx" title="Perl" description="SQL Server og Perl">
+					<siteMapNode url="~/Perl/DBI.aspx" title="DBI" description="Perl DBI" />
+				</siteMapNode>
+				<siteMapNode url="~/Programming/JCL.aspx" title="JCL" description="IBM Job Control Language" />
+			</siteMapNode>
+		</siteMapNode>
+
+		<siteMapNode url="~/Types/Default.aspx" title="Typer" description="SQL Server typer">
+			<siteMapNode url="~/Types/DateTime.aspx" title="Dato og tid" description="SQL Server dato og tid" />
+			<siteMapNode url="~/Types/Char.aspx" title="Tegn" description="SQL Server tegn og karakterer">
+				<siteMapNode url="~/Types/Unicode.aspx" title="Unicode" description="SQL Server Unicode tegn" />
+			</siteMapNode>
+			<siteMapNode url="~/Types/Text.aspx" title="Tekst" description="SQL Server tekst typer" />
+			<siteMapNode url="~/XML/Default.aspx" title="XML" description="XML">
+				<siteMapNode url="~/XML/MSXML.aspx" title="MSXML" description="Microsoft MSXML" />
+				<siteMapNode url="~/XML/XQuery.aspx" title="XQuery" description="XQuery" />
+				<siteMapNode url="~/XML/XSL.aspx" title="XSL" description="Extensible Stylesheet Language" />
+				<siteMapNode url="~/XML/XSLT.aspx" title="XSLT" description="XSL Transformations" />
+				<siteMapNode url="~/XML/XSL-FO.aspx" title="XSL-FO" description="XSL Formatting Objects" />
+				<siteMapNode url="~/XML/SAX.aspx" title="SAX" description="Simple API for XML" />
+				<siteMapNode url="~/XML/Ajax.aspx" title="Ajax" description="Asynchoronous JavaScript and XML" />
+				<siteMapNode url="~/XML/WSDL.aspx" title="WSDL" description="Web Service Description Language" />
+				<siteMapNode url="~/XML/UDDI.aspx" title="UDDI" description="Universal Description, Discovery and Integration" />
+				<siteMapNode url="~/XML/DTD.aspx" title="DTD" description="Document Type Declaration" />
+				<siteMapNode url="~/XML/XPath.aspx" title="XPath" description="XPath" />
+				<siteMapNode url="~/XML/XLinks.aspx" title="XLinks" description="XLinks" />
+				<siteMapNode url="~/XML/CSS.aspx" title="CSS" description="Cascading Style Sheets" />
+				<siteMapNode url="~/XML/Schema.aspx" title="Schema" description="XML Schema" />
+				<siteMapNode url="~/XML/DOM.aspx" title="DOM" description="Document Object Model" />
+				<siteMapNode url="~/XML/Reference.aspx" title="XML" description="XML referencer" />
+			</siteMapNode>
+			<siteMapNode url="~/Types/GUID.aspx" title="GUID" description="SQL Server Global Unique ID" />
+			<siteMapNode url="~/Types/Number.aspx" title="Tal" description="SQL Server tal" />
+			<siteMapNode url="~/Types/BLOB.aspx" title="BLOB" description="SQL Server Binary Large Objects" />
+		</siteMapNode>
+
+		<siteMapNode url="~/Activity/Default.aspx" title="Aktiviteter" description="SQL Server aktiviteter">
+			<siteMapNode url="~/Activity/Restore.aspx" title="Restore" description="SQL Server restore" />
+			<siteMapNode url="~/Activity/Backup.aspx" title="Backup" description="SQL Server backup" />
+			<siteMapNode url="~/Activity/Bulk.aspx" title="Bulk" description="SQL Server bulk operationer" />
+			<siteMapNode url="~/Activity/Collation.aspx" title="Collation" description="Change SQL Server collation" />
+			<siteMapNode url="~/Activity/Documentation.aspx" title="Dokumentation" description="Dokumentation af SQL Server infrastruktur" />
+			<siteMapNode url="~/Activity/Problem.aspx" title="Problem" description="Problem Management" />
+			<siteMapNode url="~/Activity/Monitor.aspx" title="Monitor" description="SQL Server måling og overvågning" />
+			<siteMapNode url="~/Activity/Move.aspx" title="Flytning" description="SQL Server database flytning" />
+			<siteMapNode url="~/Activity/Change.aspx" title="Change" description="SQL Server change" />
+		</siteMapNode>
+
+		<siteMapNode url="~/Security/Default.aspx" title="Sikkerhed" description="SQL Server sikkerhed">
+			<siteMapNode url="~/Security/Access.aspx" title="Adgang" description="SQL Server adgang og login" />
+			<siteMapNode url="~/Security/Rights.aspx" title="Rettighed" description="SQL Server rettigheder" />
+		</siteMapNode>
+
+		<siteMapNode url="~/Development/Default.aspx" title="Udvikling" description="Udviklingsmetoder og -metodikker" />
+
+		<siteMapNode url="~/History/Default.aspx" title="Historie" description="SQL Server historie">
+			<siteMapNode url="~/History/TechTimeline.aspx" title="Tech Timeline" description="Technology Timeline" />
+			<siteMapNode url="~/History/Versions.aspx" title="Versioner" description="SQL Server versioner" />
+			<siteMapNode url="~/History/Updates.aspx" title="Opdateringer" description="SQL Server opdateringer" />
+			<siteMapNode url="~/History/RDBMS.aspx" title="Relationel database" description="Relationel database" />
+			<siteMapNode url="~/History/Persons.aspx" title="Persongalleri" description="SQL Server persongalleri" />
+		</siteMapNode>
+
+		<siteMapNode url="~/Reference/Default.aspx" title="Referencer" description="Referencer">
+			<siteMapNode url="~/Reference/DBA.aspx" title="DBA" description="SQL Server DBA referencer" />
+			<siteMapNode url="~/Reference/RDBMS.aspx" title="Relationel database" description="Relationel database referencer" />
+			<siteMapNode url="~/Reference/SQLsrv.aspx" title="SQL Server" description="SQL Server referencer" />
+		</siteMapNode>
+		
+		<siteMapNode url="~/Dictionary.aspx" title="Begreber og forkortelser" description="SQL Server begreber og forkortelser" />
+	</siteMapNode>
+</siteMap>
