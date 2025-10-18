@@ -1,0 +1,10 @@
+﻿/*
+Filename   : Timeline.css
+Createdate : 2022-08-06
+Author     : Niels Grove-Rasmussen
+*/
+
+.timeline-text {}
+.timeline-text span {
+  color: orange; font-family: sans-serif; font-weight: bolder; 
+}

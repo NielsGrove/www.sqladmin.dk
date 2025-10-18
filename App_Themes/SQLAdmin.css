@@ -1,0 +1,164 @@
+/*
+Filename   : sqldba.css
+Createdate : 2006-04-30
+Author     : Niels Grove-Rasmussen
+
+History
+2007-09-02 : Boxing with left index box using style sheet
+2007-09-04 : Table for UML class diagram
+2010-05-08 : Caption bottom left
+*/
+
+
+body {
+	font-family: sans-serif;
+	line-height: 1.2;
+	margin: 0px;
+	padding: 0px;
+}
+
+p, ul, ol {}
+
+a:link
+{
+	border-bottom: dotted 1px;
+	text-decoration: none;
+}
+a:visited 
+{
+	border-bottom: dotted 1px;
+	text-decoration: none;
+}
+a:hover { background: #FFFFFF; color: #003399; }
+a:active { color: #003399; }
+
+h1
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+h1.header
+{
+	height: 60px;
+	margin: 0px;
+	padding: 1px;
+}
+
+h2 { font-family: sans-serif }
+h2 a:link, h2 a:visited { border-bottom: none }
+
+h3 { font-family: sans-serif; font-weight: normal; }
+
+h4 { margin-left: 4%; }
+
+h5 { margin-left: 8%; }
+
+p.navbar
+{
+	background: yellow;
+	font-size: smaller;
+	border-bottom: solid 1px;
+	padding: 1ex
+}
+p.navbar a:hover
+{
+	background: yellow;
+	border: solid 1px
+}
+
+div#wrapper {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left
+}
+div#synopsis
+{
+	margin-left:5%;
+	margin-right:5%;
+	background: silver;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em
+}
+div#main {
+	background-color: white;
+	padding: 1em;
+	float: right;
+	width: 75%;
+}
+div#navcol {
+	padding: 1em;
+	font-size: smaller;
+}
+p.foot
+{
+	border-top: solid #000 1px;
+	font-size: smaller;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.2em;
+	color: gray;
+	clear: both
+}
+
+.comment { color: #666666; }
+
+caption { caption-side: bottom; text-align: left }
+
+code { color: #000099; }
+
+table.body
+{
+	border: thin black solid;
+	border-collapse: collapse;
+	font-size:smaller;
+}
+th.body
+{
+	border: thin black solid;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+td.body
+{
+	border: thin black solid;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+table.uml
+{
+	font-family: Sans-Serif;
+	font-size: smaller;
+	border: thin red solid;
+	border-collapse: collapse;
+	background: #FFFF99;
+}
+th.uml
+{
+	border-bottom: medium red solid;
+	border-right: thin red solid;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+td.uml
+{
+	border-bottom: thin red solid;
+	border-right: thin red solid;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+/* ToDo: Only used in a few pages - but I need to find out how to link css-file in aspx... */
+.timeline-text span {
+	color: orange;
+	font-weight: bolder;
+}
